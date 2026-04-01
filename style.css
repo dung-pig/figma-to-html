@@ -1,6 +1,10 @@
 * {
   box-sizing: border-box;
 }
+:root {
+  --font-tieude: "Sen", sans-serif;
+  --mau-chu-dao: rgba(255, 185, 0, 1);
+}
 html {
   font-size: 62.5%;
 }
@@ -38,6 +42,7 @@ a {
   background: #ded6d6;
 }
 .header.fixed {
+  z-index: 1;
   position: sticky;
   top: -28px;
 }
@@ -90,4 +95,122 @@ ul {
 }
 .header .action {
   margin-left: 48px;
+}
+.hero {
+  padding: 56px 0 65px;
+  background: rgba(255, 252, 244, 1);
+}
+.hero .body {
+  display: flex;
+}
+/* =======hero left========= */
+.hero .dung-content {
+  position: relative;
+  width: 49%;
+}
+
+.hero .dung-content .img {
+  width: 470px;
+  height: 685px;
+  object-position: cover;
+  border-radius: 20px;
+}
+.hero .heo-sumari {
+  padding: 24px;
+  width: 270px;
+  position: absolute;
+  bottom: 48px;
+  right: 0;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
+}
+.hero .heo-sumari .item {
+  display: flex;
+}
+.hero .heo-sumari .icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero .heo-sumari .icon1 {
+  background: rgba(255, 249, 232, 1);
+}
+.hero .heo-sumari .icon2 {
+  background: rgba(252, 239, 255, 1);
+}
+.hero .heo-sumari .icon3 {
+  background: rgba(240, 253, 255, 1);
+}
+.hero .heo-sumari .info {
+  margin-left: 16px;
+}
+.hero .heo-sumari .table {
+  font-size: 1.4rem;
+
+  line-height: 186%;
+  color: rgba(95, 91, 83, 1);
+}
+.hero .heo-sumari .vanban {
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(23, 17, 0, 1);
+  font-weight: 600;
+}
+.hero .heo-sumari .item + .item {
+  margin-top: 22px;
+  align-items: center;
+}
+.hero .nhan-dung {
+  width: 51%;
+  padding-left: 130px;
+  padding-top: 64px;
+}
+.hero .tieude {
+  font-family: var(--font-tieude);
+  font-weight: 700;
+  font-size: 5.8rem;
+  line-height: 1.17;
+  letter-spacing: -1, 16px;
+}
+.hero .desc {
+  color: rgba(95, 91, 83, 1);
+  margin-top: 22px;
+  font-size: 1.8rem;
+  line-height: 1.67;
+}
+.hero .lamnutnhan {
+  margin-top: 38px;
+}
+.hero .btn-dungxamtro {
+  min-width: 180px;
+  line-height: 64px;
+  background-color: var(--mau-chu-dao);
+}
+.lamnutnhan {
+  display: flex;
+  align-items: center; /* Căn giữa theo chiều dọc để hai nút không bị lệch cao thấp */
+  gap: 20px;
+  border-radius: 36px;
+}
+.nhan-dung .watch-vid {
+  border: none;
+  background: transparent;
+}
+.hero .desc-ca strong {
+  font-family: var(--font-tieude);
+  font-weight: 700;
+  margin-right: 15px;
+  font-size: 4.4rem;
+
+  line-height: 1.23;
+}
+.hero .desc-ca strong:nth-child(2) {
+  margin-left: 28px;
+}
+.hero .desc-ca {
+  margin-top: 8px;
 }
