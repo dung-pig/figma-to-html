@@ -246,7 +246,7 @@ width: 485px;
   display: flex;
   gap: 18px;
   align-items: center;
-
+  margin-right: 40px;
 }
 .popular .control-btn{
   color: var(--mau-chu-dao);
@@ -264,3 +264,85 @@ border-radius: 50%;
   color:#fff;
   cursor: pointer;
 }
+.popular .heading-lv2{
+  margin-bottom: 10px;
+}
+.popular .course-list{
+
+  display:flex;
+  gap: 30px;
+  margin-top: 55px;
+  width: 370px;
+height: 466px;
+margin-left: 135px;
+border-radius: 12px;
+
+
+}
+.popular .course-item .thumb{
+
+height: 278px;
+border-top-left-radius: 12px;
+border-top-right-radius: 12px;
+
+  width: 100%;
+}
+.popular .dung07 {
+  padding:20px;
+}
+.popular .head{
+  display:flex;
+  justify-content: space-between;
+}
+
+.popular .course-item .desc{
+ margin-top: 10px;
+}
+.popular .foot{
+  display:flex;
+  justify-content: space-between;
+}
+.popular .foot .price{
+  display:flex;
+  align-items: center;
+}
+.popular .course-item{
+border: 1px solid rgba(226, 223, 218, 1);
+background: #fff;
+border-radius: 12px;
+}
+.popular .course-item:hover{
+  border: 1px solid transparent;
+box-shadow:0px 18px 36px 0px rgba(0, 0, 0, 0.05);
+background: #fff;
+border-radius: 12px;
+}
+.popular .price{
+  font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 30px;
+letter-spacing: 0%;
+
+}
+
+
+.popular .btn{
+  background: #0c0000;
+}
+.popular .btn:hover{
+  background: var(--mau-chu-dao);
+
+
+}
+.btn:hover{
+  cursor: pointer;
+}
+
+
+
+
+
+   
