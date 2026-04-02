@@ -12,10 +12,20 @@ body {
   font-size: 1.6rem;
   font-family: "Poppins", sans-serif;
 }
+
 /* bỏ gạch chân */
 a {
-  text-decoration: none;
-}
+      text-decoration: none;}
+  .heading-lv2{
+font-family: var(--font-tieude);
+font-weight: 700;
+color: rgba(23, 17, 0, 1);
+font-size: 3.8rem;
+line-height: 1.26;
+letter-spacing: -0.76px;
+
+  }
+
 .btn {
   font-weight: 600;
   font-size: 1.6rem;
@@ -107,6 +117,7 @@ ul {
 .hero .dung-content {
   position: relative;
   width: 49%;
+  padding
 }
 
 .hero .dung-content .img {
@@ -213,4 +224,43 @@ ul {
 }
 .hero .desc-ca {
   margin-top: 8px;
+}
+.popular{
+  padding: 65px;
+  /* background-color: blue; */
+  margin-top: 135px;
+}
+.popular .desc{
+color: rgba(95, 91, 83, 1);
+font-style: Regular;
+font-size: 1.8 rem;
+line-height: 1.67;
+width: 485px;
+}
+.pupolar-top{
+  display:flex;
+  justify-content:space-between;
+}
+
+.popular .control{
+  display: flex;
+  gap: 18px;
+  align-items: center;
+
+}
+.popular .control-btn{
+  color: var(--mau-chu-dao);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  width: 40px;
+height: 40px;
+border-radius: 50%;
+ border: 1px solid var(--mau-chu-dao);
+}
+.popular .control-btn:hover{
+  background-color: var(--mau-chu-dao);
+  color:#fff;
+  cursor: pointer;
 }
