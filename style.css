@@ -353,7 +353,14 @@ letter-spacing: 0%;
   margin-top: 135px;
   padding:96px 0;
   background-color: rgba(46, 33, 0, 1);
-  
+}
+.feedback-list{
+  display: flex;
+    overflow:hidden;
+}
+.feedback-items{
+  display:flex;
+  flex-shrink: 0;
 
 }
 .feedback .feedback-items{
